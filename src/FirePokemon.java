@@ -21,7 +21,7 @@ public class FirePokemon extends Pokemon{
 
     @Override
     public void speaks() {
-        System.out.println(super.getName() + " says "+ getSound() + "!!!!");
+        System.out.println(super.getName() + " says "+ getSound() + "!!!");
     }
 
     public void fireBolt(){
